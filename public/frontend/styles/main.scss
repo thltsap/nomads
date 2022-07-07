@@ -1,0 +1,519 @@
+body {
+    background-color: #ffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #CA8B8B;
+}
+
+//Navbar
+
+.navbar-brand {
+    img{
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link{
+            color: #CA8B8B;
+
+            &.active {
+                font-weight: bold;
+                color: #CA8B8B !important;
+            }
+        }
+    }
+}
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+.btn-login{
+    background-color: #CA8B8B;
+    color: #fff;
+
+    &:hover{
+        background-color: #F9BDBD;
+        color: #fff;
+    }
+}
+
+// Header
+header{
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1, p {
+        color: #fff;
+    }
+
+    h1{
+        font-family: 'Noticia Text', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    .btn-get-started{
+        background-color: #FF8B26;
+        color: #fff;
+
+        &:hover{
+            background-color: #FFC28D;
+            color: #fff;
+        } 
+    }
+}
+
+//Statistik
+.section-stats{
+    margin-top: -50px;
+
+    .stats-detail{
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}
+
+// Popular
+.section-popular{
+    min-height: 540px;
+    background-color: #A17E7E;
+    margin-top: -50px;
+    margin-bottom: -230px; 
+
+    .section-popular-heading{
+        margin-top: 150px;
+
+        h2,p{
+            color: #fff;
+        }
+
+        h2{
+            font-family: 'Noticia Text', serif;
+            font-weight: bold;
+            font-size: 40px; 
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    
+}
+
+.section-popular-content{
+    .section-popular-travel{
+        .card-travel{
+            min-height: 380px;
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .travel-country{
+            font-family: 'Noticia Text', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: #fff;
+        }
+        .travel-location{
+            font-family: 'Noticia Text', serif;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 23px;
+            color: #fff;
+        }
+        .travel-button{
+            .btn-travel-details{
+                font-family: 'Noticia Text', serif;
+                background-color: #FF8B26;
+                color: #fff;
+
+                &:hover{
+                    background-color: #FFC28D;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.section-networks{
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2{
+        font-family: "Noticia Text";
+        font-weight: bold;
+        font-style: italic;
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+
+.section-testimonial-heading{
+background: linear-gradient(#fff 0%, #f7f9ff 100%);
+padding-top: 50px;
+min-height: 506px;
+
+h2{
+font-family: "Noticia Text",serif;
+font-weight: bold;
+font-style: italic;
+font-size: 40px;
+ }
+ P{
+     font-size: 18px;
+ }
+}
+
+
+.section-testimonial-content {
+    margin-top: -300px;
+    padding-bottom: 50px;
+    font-family: "Noticia Text",serif;
+  
+    .card-testimonial {
+      padding: 40px 20px 10px;
+      border-radius: 11px;
+      margin-bottom: 20px;
+  
+      .testimonial-content {
+        min-height: 380px;
+      }
+  
+      h3 {
+        font-size: 22px;
+      }
+  
+      .testimonial {
+        font-size: 20px;
+        text-align: center;
+        color: #6e6e6e;
+        font-weight: 200;
+      }
+  
+      .trip-to {
+        font-weight: normal;
+        font-size: 22px;
+        color: #6e6e6e;
+      }
+  
+      hr {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+    }
+  
+    .btn-get-started {
+      background-color: #FF8B26;
+      color: #fff;
+  
+      &:hover {
+        color: #fff;
+      }
+    }
+  
+    .btn-need-help {
+      background-color: #F2F2F2;
+      color: #C3C3C3;
+  
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .section-footer{
+      a{
+          color: #CA8B8B;
+      }
+      h5{
+        font-family: "Noticia Text",serif;
+        font-weight: bold;
+      }
+      .container-fluid{
+        font-family: "Noto Sans KR";
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+        color: #6f6f6f;
+        
+      }
+  }
+ 
+  .section-details-header{
+      min-height: 310px;
+      background: #EFE2E2;
+      margin-top: -70px;
+
+  }
+
+  .section-details-content{
+      margin-top: -210px;
+      min-height: 100vh;
+      .breadcrumb{
+          background-color: transparent;
+          padding: 0;
+          margin-bottom: 30px;
+      }
+      .breadcrumb-item{
+          &.active{
+              font-weight: bold;
+              color: #9D5E5E;
+          }
+      }
+
+      .card-details{
+          padding: 30px;
+          border-radius: 11px;
+
+          h1{
+              font-size: 26px;
+          }
+          h2{
+              font-size: 20px;
+          }
+          p{
+              font-size: 18px;
+              color: #B1B1B1;
+          }
+          h3{
+              font-weight: 300;
+              font-size: 14px;
+              color: #CA8B8B;
+             
+          }
+          .trip-information{
+              th{
+                  font-weight: 300;
+                  font-size: 18px;
+                  color: #CA8B8B;
+              }
+
+              td{
+                  font-weight: 300;
+                  font-size: 18px;
+                  color: #B1B1B1;
+              }
+              .text-blue{
+                  color: #9D5E5E;
+                  font-weight: bold;
+              }
+              .text-orange{
+                  color: #FF8B26;
+                  font-weight: bold;
+              }
+              h3{
+                font-family: "Noticia Text";
+                font-weight: bold;
+                font-style: italic;
+                font-size: 14px;
+                color: #cb9b9b;
+                
+              }
+          }
+
+          .payment-instructions{
+              font-weight: 300;
+              font-size: 14px;
+              color: #B1B1B1;
+          }
+
+          .bank{
+              .bank-item{
+                  h3{
+                      font-size: 18px;
+                      color: #CA8B8B;
+                      margin-bottom: 0;
+                  }
+
+                  P{
+                      margin-bottom: 0;
+                  }
+
+                  .description{
+                      margin-left: 10px;
+                      overflow: hidden;
+                      float: left;
+
+                      p{
+                        font-family: "Noticia Text";
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #ca8b8b;
+                        
+                      }
+                  }
+              }
+
+              .bank-image{
+                  width: 45px;
+                  height: 45px;
+                  float: left;
+              }
+          }
+          .disclaimer{
+              font-weight: 300;
+              font-size: 14px;
+              color: #B1B1B1;
+          }
+
+          .gj-datepicker{
+              .datepicker{
+                  border-right: 0;
+              }
+
+              .input-group-append{
+                  .btn{
+                  padding-right: 30px;
+                  }
+              }
+          }
+
+          .btn-add-now{
+              background-color: #CA8B8B;
+              color: #fff;
+
+              &:hover{
+                background-color: #FCC9C9;
+                color: #fff;
+            } 
+          }
+      }
+
+      .card-right{
+          border-bottom-left-radius: 0;
+          border-bottom-right-radius: 0;
+          border-bottom: 0;
+      }
+
+      .features{
+          margin-top: 20px;
+
+          h3{
+              font-size: 18px;
+              color:#9D5E5E ;
+              margin-bottom: 0;
+          }
+          P{
+              font-size: 14px;
+              margin-bottom: 0;
+          }
+
+          .description{
+              margin-left: 10px;
+              overflow: hidden;
+              float: left;
+          }
+
+          .features-image{
+              width: 45px;
+              height: 45px;
+              float: left;
+          }
+      }
+
+      .gallery {
+        .xzoom-container {
+          display: block;
+    
+          .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+          }
+    
+          .xactive {
+            border: 2px solid #1abc9c;
+            box-shadow: none;
+          }
+        }
+      }
+
+      .members{
+        .members-image{
+            width: 40px;
+            height: 40px;
+        }
+      }
+
+      .join-container{
+          margin-top: -16px;
+      }
+
+      .btn-join-now{
+          background-color: #FF8B26;
+          color: #fff;
+          border: 0;
+          font-family: 'Noticia Text', serif;
+          font-weight: bold;
+          font-style: italic;
+
+          &:hover{
+            background-color: #FFC28D;
+            color: #fff;
+        } 
+      }
+     
+  }
+
+  .section-success{
+      height: 90vh;
+
+      h1{
+        font-family: 'Noticia Text', serif;
+          font-weight: 600;
+          font-size: 26px;
+          color: #9D5E5E;
+      }
+
+      P{
+        font-family: 'Noticia Text', serif;
+          font-weight: 300;
+          font-size: 18px;
+          color: #B1B1B1;
+      }
+
+      .btn-home-page{
+        font-family: 'Noticia Text', serif;
+          border-radius: 4px;
+          background-color: #ca8b8b;
+          color: #fff;
+
+          &:hover{
+            background-color: #FCC9C9;
+            color: #fff;
+        } 
+      }
+  }
+  

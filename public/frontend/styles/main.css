@@ -1,0 +1,500 @@
+body {
+  background-color: #ffff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #CA8B8B;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #CA8B8B;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #CA8B8B !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #CA8B8B;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #F9BDBD;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF8B26;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #FFC28D;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #A17E7E;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-family: 'Noticia Text', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  font-family: 'Noticia Text', serif;
+  background-color: #FF8B26;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #FFC28D;
+  color: #fff;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: "Noticia Text";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: "Noticia Text",serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.section-testimonial-heading P {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+  font-family: "Noticia Text",serif;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 20px;
+  text-align: center;
+  color: #6e6e6e;
+  font-weight: 200;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF8B26;
+  color: #fff;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  color: #fff;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  color: #fff;
+}
+
+.section-footer a {
+  color: #CA8B8B;
+}
+
+.section-footer h5 {
+  font-family: "Noticia Text",serif;
+  font-weight: bold;
+}
+
+.section-footer .container-fluid {
+  font-family: "Noto Sans KR";
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #6f6f6f;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #EFE2E2;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #9D5E5E;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #CA8B8B;
+}
+
+.section-details-content .card-details .trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #CA8B8B;
+}
+
+.section-details-content .card-details .trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .trip-information .text-blue {
+  color: #9D5E5E;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information .text-orange {
+  color: #FF8B26;
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information h3 {
+  font-family: "Noticia Text";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+  color: #cb9b9b;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #CA8B8B;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item P {
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-item .description p {
+  font-family: "Noticia Text";
+  font-weight: normal;
+  font-size: 16px;
+  color: #ca8b8b;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: #CA8B8B;
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #FCC9C9;
+  color: #fff;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #9D5E5E;
+  margin-bottom: 0;
+}
+
+.section-details-content .features P {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .members .members-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #FF8B26;
+  color: #fff;
+  border: 0;
+  font-family: 'Noticia Text', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #FFC28D;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-family: 'Noticia Text', serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #9D5E5E;
+}
+
+.section-success P {
+  font-family: 'Noticia Text', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-success .btn-home-page {
+  font-family: 'Noticia Text', serif;
+  border-radius: 4px;
+  background-color: #ca8b8b;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #FCC9C9;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
